@@ -1,0 +1,1 @@
+$SPARK_HOME/usr/lib/spark/bin/spark-submit --class "Bacon" --executor-memory 4G --master local[*] --conf "spark.excutor.extraJavaOptions=-XX:+UseCompressedOops" ./target/scala-2.10/bacon_2.10-1.0.jar $1 $2
